@@ -1,5 +1,6 @@
 <?php namespace Mel\Firstplugin\Models;
 
+use Mel\Secondplugin\Models\Book;
 use Model;
 use October\Rain\Database\Traits\SortableRelation;
 
@@ -29,4 +30,13 @@ class Category extends Model
         'name' => ['required']
     ];
 
+    /*public $belongsToMany = [
+        'books' => [
+            Book::class,
+            'table'    => 'mel_secondplugin_category_book',
+            'key'      => 'category_id',
+            'otherKey' => 'book_id',
+            'pivotSortable' => 'sort_order'
+        ]
+    ];*/
 }

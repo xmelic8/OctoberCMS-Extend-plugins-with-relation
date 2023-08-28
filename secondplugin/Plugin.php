@@ -39,7 +39,7 @@ class Plugin extends PluginBase
                 $controller->relationConfig,
                 '$/mel/secondplugin/controllers/books/config_relation.yaml'
             );
-            //\Debugbar::info('as');
+
             //$controller->relationConfig = $controller->makeConfig('$/mel/secondplugin/controllers/books/config_relation.yaml');
         });
 

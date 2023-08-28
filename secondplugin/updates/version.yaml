@@ -6,3 +6,6 @@ v1.0.2:
 v1.0.3:
     - 'Created table mel_secondplugin_category_book'
     - builder_table_create_mel_secondplugin_category_book.php
+v1.0.4:
+    - 'Updated table mel_secondplugin_category_book'
+    - builder_table_update_mel_secondplugin_category_book.php
