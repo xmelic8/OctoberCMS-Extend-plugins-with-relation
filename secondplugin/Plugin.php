@@ -39,30 +39,23 @@ class Plugin extends PluginBase
                 $controller->relationConfig,
                 '$/mel/secondplugin/controllers/books/config_relation.yaml'
             );
-
-            //$controller->relationConfig = $controller->makeConfig('$/mel/secondplugin/controllers/books/config_relation.yaml');
         });
 
         //Extend form
         \Event::listen('backend.form.extendFields', function($widget) {
-            // Only apply this listener when the Users controller is being used
             if (!$widget->getController() instanceof Categories) {
                 return;
             }
 
-            // Only apply this listener when the User model is being modified
             if (!$widget->model instanceof Category) {
                 return;
             }
 
-            // Only apply this listener when the Form widget in question is a root-level
-            // Form widget (not a repeater, nestedform, etc)
             if ($widget->isNested) {
                 //return;
             }
 
             $config = $widget->getController()->makeConfig('$/mel/secondplugin/models/category/fields.yaml');
-
             $widget->addFields($config->fields);
         });
     }
