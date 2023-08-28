@@ -1,0 +1,5 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table mel_firstplugin_categories'
+    - builder_table_create_mel_firstplugin_categories.php

@@ -1,0 +1,5 @@
+fields:
+    name:
+        label: 'Name book'
+        span: auto
+        type: text

@@ -1,0 +1,5 @@
+fields:
+    books:
+        span: full
+        path: $/mel/secondplugin/controllers/categories/_books.htm
+        type: partial

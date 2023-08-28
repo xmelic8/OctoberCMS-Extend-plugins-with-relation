@@ -1,0 +1,11 @@
+plugin:
+    name: 'mel.secondplugin::lang.plugin.name'
+    description: 'mel.secondplugin::lang.plugin.description'
+    author: Mel
+    icon: oc-icon-book
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Second plugin'
+        url: mel/secondplugin/books
+        icon: icon-book

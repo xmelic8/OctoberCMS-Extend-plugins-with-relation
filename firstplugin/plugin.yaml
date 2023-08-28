@@ -1,0 +1,11 @@
+plugin:
+    name: 'mel.firstplugin::lang.plugin.name'
+    description: 'mel.firstplugin::lang.plugin.description'
+    author: Mel
+    icon: oc-icon-folder
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'First Plugin'
+        url: mel/firstplugin/categories
+        icon: icon-life-ring

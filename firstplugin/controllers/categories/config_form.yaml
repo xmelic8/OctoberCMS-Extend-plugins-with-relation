@@ -1,0 +1,10 @@
+name: Categories
+form: $/mel/firstplugin/models/category/fields.yaml
+modelClass: Mel\Firstplugin\Models\Category
+defaultRedirect: mel/firstplugin/categories
+create:
+    redirect: 'mel/firstplugin/categories/update/:id'
+    redirectClose: mel/firstplugin/categories
+update:
+    redirect: mel/firstplugin/categories
+    redirectClose: mel/firstplugin/categories

@@ -1,0 +1,8 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table mel_secondplugin_books'
+    - builder_table_create_mel_secondplugin_books.php
+v1.0.3:
+    - 'Created table mel_secondplugin_category_book'
+    - builder_table_create_mel_secondplugin_category_book.php

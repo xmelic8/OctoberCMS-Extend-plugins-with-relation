@@ -1,0 +1,20 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+books:
+    label: ''
+    view:
+        list: $/mel/secondplugin/models/book/columns.yaml
+        recordsPerPage: 10
+        recordUrl: mel/secondplugin/books/update/:id
+        toolbarButtons: add|remove
+    manage:
+        list: $/mel/secondplugin/models/book/columns.yaml
+        showSearch: true
+        recordsPerPage: 10
+    structure:
+        showTree: false
+        showReorder: true
+        maxDepth: 1
+

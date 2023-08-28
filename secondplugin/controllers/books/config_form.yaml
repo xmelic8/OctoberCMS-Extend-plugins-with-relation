@@ -1,0 +1,10 @@
+name: Books
+form: $/mel/secondplugin/models/book/fields.yaml
+modelClass: Mel\Secondplugin\Models\Book
+defaultRedirect: mel/secondplugin/books
+create:
+    redirect: 'mel/secondplugin/books/update/:id'
+    redirectClose: mel/secondplugin/books
+update:
+    redirect: mel/secondplugin/books
+    redirectClose: mel/secondplugin/books
